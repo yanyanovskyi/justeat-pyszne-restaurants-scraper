@@ -48,8 +48,8 @@ for rest in data.get("restaurants", []):
     })
 
 df = pd.DataFrame(restaurants)
-df.to_excel("Bydgoszcz pyszne.xlsx", index=False)
-print("✅ Успешно сохранено.xlsx")
+df.to_excel("City pyszne.xlsx", index=False)
+print("✅ Successfully saved.xlsx")
 
 
 
